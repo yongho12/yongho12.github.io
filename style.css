@@ -227,6 +227,12 @@ p {
   font-size: var(--font-small);
 }
 
+.about__jobs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between ;
+}
+
 .job {
   display: flex;
   align-items: center;
@@ -250,6 +256,16 @@ p {
 .job__logo__lotte {
   width: 200px;
   height: 90px;
+}
+
+.job__logo__ksu {
+  width: 200px;
+  height: 90px;
+}
+
+.job__logo__app {
+  width: 200px;
+  height: 70px;
 }
 
 .job__name,
