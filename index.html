@@ -18,7 +18,8 @@
     <!-- Navbar -->
     <nav id="navbar">
         <div class="navbar__logo">
-            <i class="fab fa-diaspora"></i>
+            <!-- <i class="fab fa-diaspora"></i> -->
+            <img src="imgs/favicon.png" alt="favicon" class="yongho_logo"/>
             <a href="#">Yongho</a>
         </div>
         <ul class="navbar__menu">
@@ -26,7 +27,7 @@
             <li class="navbar__menu__item" data-link="#about">About</li>
             <li class="navbar__menu__item" data-link="#skills">Skills</li>
             <li class="navbar__menu__item" data-link="#work">My work</li>
-            <li class="navbar__menu__item" data-link="#testimonials">Testimonial</li>
+            <!-- <li class="navbar__menu__item" data-link="#testimonials">Testimonial</li> -->
             <li class="navbar__menu__item" data-link="#contact">Contact</li>
         </ul>
         <!-- Toggle button -->
@@ -181,7 +182,7 @@
                     </div>
                     <div class="skill">
                         <div class="skill__description">
-                            <span>NodeJS</span>
+                            <span>Python</span>
                             <span>77%</span>
                         </div>
                         <div class="skill__bar">
@@ -254,77 +255,52 @@
             <h3>Projects</h3>
             <div class="work__categories">
                 <button class="category__btn selected" data-filter="*">
-                    All <span class="category__count">3</span>
+                    All <span class="category__count">4</span>
                 </button>
-                <button class="category__btn" data-filter="front-end">
-                    Front-end <span class="category__count">3</span>
+                <button class="category__btn" data-filter="solo">
+                    Solo Projects <span class="category__count">2</span>
                 </button>
-                <button class="category__btn" data-filter="back-end">
-                    Back-end <span class="category__count">3</span>
+                <button class="category__btn" data-filter="group">
+                    Group Projects <span class="category__count">2</span>
                 </button>
-                <button class="category__btn" data-filter="mobile">
+                <!-- <button class="category__btn" data-filter="mobile">
                     Mobile <span class="category__count">2</span>
-                </button>
+                </button> -->
             </div>
             <div class="work__projects">
-                <a href="" class="project" target="blank" data-type="front-end">
-                    <img src="imgs/projects/youtube.png" alt="Youtube" class="project__img" />
+                <a href="https://findingbestie.herokuapp.com/" class="project" target="blank" data-type="solo">
+                    <img src="imgs/projects/bestie.png" alt="finding Bestie" class="project__img" />
                     <div class="project__description">
-                        <h3>Youtube Site</h3>
-                        <span>Clone coding with HTML, CSS</span>
+                        <h3>Finding Bestie</h3>
+                        <span>match friends based on question answers</span>
+                        <span>HTML CSS JavaScript React Redux Python Flask Sqlalchemy</span>
                     </div>
                 </a>
-                <a href="https://github.com/dream-Yongho/responsive-nav-bar" class="project" data-type="front-end"
+                <a href="http://diagnosticservice1.herokuapp.com/login" class="project" target="blank" data-type="solo">
+                    <img src="imgs/projects/diagnostic.png" alt="diagnostic" class="project__img" />
+                    <div class="project__description">
+                        <h3>Dianostic Service</h3>
+                        <span>Submit new case for getting service</span>
+                        <span>HTML CSS JavaScript React Redux Express Sequelize</span>
+                    </div>
+                </a>
+                <a href="https://foodie0520.herokuapp.com/" class="project" data-type="group"
                     target="blank">
-                    <img class="project__img" src="imgs/projects/navbar.png" alt="navbar" />
+                    <img class="project__img" src="imgs/projects/foodie.png" alt="navbar" />
                     <div class="project__description">
-                        <h3>Responsive Navbar</h3>
-                        <span>HTML, CSS with media query</span>
+                        <h3>Restaurant search/reservation</h3>
+                        <span>HTML CSS JavaScript React Redux Python Flask Sqlalchemy</span>
                     </div>
                 </a>
-                <a href="https://github.com/dream-Yongho/responsive-nav-bar" class="project" data-type="front-end"
+                <a href="https://sprint-turf.herokuapp.com/users/login" class="project" data-type="group"
                     target="blank">
-                    <img class="project__img" src="imgs/projects/game.png" alt="navbar" />
+                    <img class="project__img" src="imgs/projects/sprint.png" alt="navbar" />
                     <div class="project__description">
-                        <h3>Shopping mall game</h3>
-                        <span>HTML, CSS, JavaScript, Json</span>
+                        <h3>Project Management App</h3>
+                        <span>Pug, CSS, JavaScript, Sequelize, Express</span>
                     </div>
                 </a>
-                <a href="" class="project" data-type="back-end">
-                    <img class="project__img" src="imgs/projects/game.png" alt="" />
-                    <div class="project__description">
-                        <h3>Project</h3>
-                        <span>Explanation</span>
-                    </div>
-                </a>
-                <a href="" class="project" data-type="back-end">
-                    <img class="project__img" src="imgs/projects/game.png" alt="" />
-                    <div class="project__description">
-                        <h3>Project</h3>
-                        <span>Explanation</span>
-                    </div>
-                </a>
-                <a href="" class="project" data-type="mobile">
-                    <img class="project__img" src="imgs/projects/game.png" alt="" />
-                    <div class="project__description">
-                        <h3>Project</h3>
-                        <span>Explanation</span>
-                    </div>
-                </a>
-                <a href="" class="project" data-type="mobile">
-                    <img class="project__img" src="imgs/projects/game.png" alt="" />
-                    <div class="project__description">
-                        <h3>Project</h3>
-                        <span>Explanation</span>
-                    </div>
-                </a>
-                <a href="" class="project" data-type="mobile">
-                    <img class="project__img" src="imgs/projects/game.png" alt="" />
-                    <div class="project__description">
-                        <h3>Project</h3>
-                        <span>Explanation</span>
-                    </div>
-                </a>
+             
             </div>
         </div>
     </section>
