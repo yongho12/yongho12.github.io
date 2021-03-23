@@ -145,6 +145,11 @@ p {
   display: none;
 }
 
+.yongho_logo {
+  width: 50px;
+  height: 50px;
+}
+
 /* Home */
 #home {
   background: url('imgs/home-background.png') center/cover no-repeat;
@@ -153,10 +158,7 @@ p {
   text-align: center;
 }
 
-.yongho_logo {
-  width: 50px;
-  height: 50px;
-}
+
 
 .home__avatar {
   width: 220px;
