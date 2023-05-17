@@ -250,6 +250,11 @@ p {
   text-align: left;
 }
 
+.job__logo__ibm {
+  width: 200px;
+  height: 150px;
+}
+
 .job__logo__citi {
   width: 200px;
   height: 60px;
