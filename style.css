@@ -195,7 +195,13 @@ p {
 .section__container {
   max-width: 1200px;
   margin: auto;
+  text-align: center;
 }
+
+.aboutme_container {
+  text-align: left;
+}
+
 
 /* About */
 .about__majors {
